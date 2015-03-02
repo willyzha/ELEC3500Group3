@@ -1,4 +1,4 @@
-`timescale 1ns / 1ns
+`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -23,6 +23,8 @@ module top_tb;
 	reg pbi, pbr, rst, clr, clk;
 	wire winrnd,right,tie;
 	
+	//instantiate
+	top topinst(.pbi(pbi), .pbr(pbr),.rst(rst),.clk(clk),.clr(clr),.winrnd(winrnd),.tie(tie),.right(right));
 	
 	//clock
 	always #20  clk <= ~clk;
@@ -83,8 +85,6 @@ module top_tb;
 	$finish;
 	end
 	
-	//instantiate
-	top topinst(.pbi(pbi), .pbr(pbr),.rst(rst),.clk(clk),.clr(clr),.winrnd(winrnd),.tie(tie),.right(right));
 	
 endmodule
 	

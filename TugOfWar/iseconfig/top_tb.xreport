@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-02-27T14:34:12</DateModified>
+  <DateModified>2015-03-02T12:09:05</DateModified>
   <ModuleName>top_tb</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>W:/ELEC3500/Lab5/Tow1/iseconfig/top_tb.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>W:/ELEC3500/Lab5/Tow1</ImplementationReportsDirectory>
+  <SavedFilePath>W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/iseconfig/top_tb.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar\</ImplementationReportsDirectory>
   <DateInitialized>2015-02-27T14:34:12</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

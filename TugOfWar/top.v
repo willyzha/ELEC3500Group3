@@ -35,6 +35,6 @@ module top(
 	OPP opp_1(sypush,clk,rst,winrnd);
 	 
 	//if(right&winrnd)
-	
+	//pushCount();
 
 endmodule

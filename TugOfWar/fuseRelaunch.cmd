@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "W:/ELEC3500/Lab5/Tow1/top_tb_isim_beh.exe" -prj "W:/ELEC3500/Lab5/Tow1/top_tb_beh.prj" "work.top_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer_tb_isim_beh.exe" -prj "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer_tb_beh.prj" "work.scorer_tb" "work.glbl" 

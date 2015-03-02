@@ -1,29 +1,31 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o W:/ELEC3500/Lab5/Tow1/top_tb_isim_beh.exe -prj W:/ELEC3500/Lab5/Tow1/top_tb_beh.prj work.top_tb work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer_tb_isim_beh.exe -prj W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer_tb_beh.prj work.scorer_tb work.glbl 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "W:/ELEC3500/Lab5/Tow1/RSLatch.v" into library work
-Analyzing Verilog file "W:/ELEC3500/Lab5/Tow1/Synchronizer.v" into library work
-Analyzing Verilog file "W:/ELEC3500/Lab5/Tow1/PBL.v" into library work
-Analyzing Verilog file "W:/ELEC3500/Lab5/Tow1/OPP.v" into library work
-Analyzing Verilog file "W:/ELEC3500/Lab5/Tow1/top.v" into library work
-Analyzing Verilog file "W:/ELEC3500/Lab5/Tow1/top_tb.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/RSLatch.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/Synchronizer.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/PBL.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/OPP.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/top.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer.v" into library work
+Analyzing Verilog file "W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer_tb.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 118788 KB
+Fuse Memory Usage: 119748 KB
 Fuse CPU Usage: 327 ms
 Compiling module RSLatch
 Compiling module PBL
 Compiling module Synchronizer
 Compiling module OPP
 Compiling module top
-Compiling module top_tb
+Compiling module scorer
+Compiling module scorer_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 Verilog Units
-Built simulation executable W:/ELEC3500/Lab5/Tow1/top_tb_isim_beh.exe
-Fuse Memory Usage: 144244 KB
-Fuse CPU Usage: 483 ms
+Compiled 8 Verilog Units
+Built simulation executable W:/ELEC3500/TugOfWar/ELEC3500Group3/TugOfWar/scorer_tb_isim_beh.exe
+Fuse Memory Usage: 144180 KB
+Fuse CPU Usage: 545 ms

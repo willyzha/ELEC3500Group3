@@ -28,10 +28,13 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="scorer_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="scorer_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="scorer_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="scorer_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="scorer_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="top_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="top_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="top_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
@@ -41,21 +44,25 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425073416" xil_pn:in_ck="-4103829289211201377" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1425073416">
+    <transform xil_pn:end_ts="1425320839" xil_pn:in_ck="8901743716678346734" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1425320838">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="OPP.v"/>
       <outfile xil_pn:name="PBL.v"/>
       <outfile xil_pn:name="RSLatch.v"/>
       <outfile xil_pn:name="Synchronizer.v"/>
+      <outfile xil_pn:name="led_mux.v"/>
+      <outfile xil_pn:name="pushCounter.v"/>
+      <outfile xil_pn:name="scorer.v"/>
+      <outfile xil_pn:name="scorer_tb.v"/>
       <outfile xil_pn:name="top.v"/>
       <outfile xil_pn:name="top_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1425072417" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1460404342370743393" xil_pn:start_ts="1425072417">
+    <transform xil_pn:end_ts="1425320883" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1229379605780740986" xil_pn:start_ts="1425320883">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425072417" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1435175218478442839" xil_pn:start_ts="1425072417">
+    <transform xil_pn:end_ts="1425320883" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5312933766503977166" xil_pn:start_ts="1425320883">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -63,32 +70,38 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425073416" xil_pn:in_ck="-4103829289211201377" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1425073416">
+    <transform xil_pn:end_ts="1425320839" xil_pn:in_ck="8901743716678346734" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1425320839">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="OPP.v"/>
       <outfile xil_pn:name="PBL.v"/>
       <outfile xil_pn:name="RSLatch.v"/>
       <outfile xil_pn:name="Synchronizer.v"/>
+      <outfile xil_pn:name="led_mux.v"/>
+      <outfile xil_pn:name="pushCounter.v"/>
+      <outfile xil_pn:name="scorer.v"/>
+      <outfile xil_pn:name="scorer_tb.v"/>
       <outfile xil_pn:name="top.v"/>
       <outfile xil_pn:name="top_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1425073421" xil_pn:in_ck="-4103829289211201377" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6902884727960133850" xil_pn:start_ts="1425073416">
+    <transform xil_pn:end_ts="1425320890" xil_pn:in_ck="8901743716678346734" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7760728136263232816" xil_pn:start_ts="1425320883">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="top_tb_beh.prj"/>
-      <outfile xil_pn:name="top_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="scorer_tb_beh.prj"/>
+      <outfile xil_pn:name="scorer_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1425073422" xil_pn:in_ck="-8965518556784317850" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1464891195531213795" xil_pn:start_ts="1425073421">
+    <transform xil_pn:end_ts="1425320891" xil_pn:in_ck="274736438973210677" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7076248432761707251" xil_pn:start_ts="1425320890">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="top_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="scorer_tb_isim_beh.wdb"/>
     </transform>
   </transforms>
 
